@@ -1,0 +1,1 @@
+/usr/share/mediawiki-extensions/geshi/SyntaxHighlight_GeSHi.php

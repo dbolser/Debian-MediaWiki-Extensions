@@ -1,0 +1,14 @@
+Package: mediawiki-extensions
+Version: 2.3squeeze1
+Architecture: all
+Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
+Installed-Size: 12
+Depends: mediawiki-extensions-base, mediawiki-extensions-geshi, mediawiki-extensions-ldapauth, mediawiki-extensions-openid, mediawiki-extensions-confirmedit, mediawiki-extensions-fckeditor, mediawiki-extensions-collection, mediawiki-extensions-graphviz
+Section: web
+Priority: optional
+Description: Extensions for MediaWiki -- Meta package
+ This metapackage provides all the extensions for mediawiki
+ available in Debian.
+ .
+ These extensions are set together for the Debian mediawiki
+ package, but they may also be used separately.

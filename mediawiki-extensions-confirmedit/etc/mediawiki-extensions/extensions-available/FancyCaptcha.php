@@ -1,0 +1,1 @@
+/usr/share/mediawiki-extensions/confirmedit/FancyCaptcha.php

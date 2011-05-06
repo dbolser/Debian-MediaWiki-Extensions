@@ -1,0 +1,1 @@
+/usr/share/mediawiki-extensions/base/NewestPages/NewestPages.php

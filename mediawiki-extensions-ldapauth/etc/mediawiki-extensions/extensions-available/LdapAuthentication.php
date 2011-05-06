@@ -1,0 +1,1 @@
+/usr/share/mediawiki-extensions/ldapauth/LdapAuthentication.php

@@ -1,0 +1,44 @@
+
+## Grab a package list from here:
+
+http://packages.debian.org/stable/allpackages
+
+
+
+## Download the ones we are intereseted in
+
+M=http://ftp.uk.debian.org/debian/pool/main/m/mediawiki-extensions
+D=2.3squeeze1_all
+
+for X in \
+    mediawiki-extensions-base \
+    mediawiki-extensions-collection \
+    mediawiki-extensions-confirmedit \
+    mediawiki-extensions-fckeditor \
+    mediawiki-extensions-geshi \
+    mediawiki-extensions-graphviz \
+    mediawiki-extensions-ldapauth \
+    mediawiki-extensions-openid \
+    mediawiki-extensions
+  do
+  
+  CMD="wget $M/${X}_$D.deb"
+  echo $CMD
+  $CMD
+  
+done
+
+
+
+for DEB in *.deb; do
+    DIR=`basename $DEB _$D.deb`
+    mkdir $DIR &&
+    cd $DIR &&
+    ar vx ../$DEB &&
+    tar zxfv data.tar.gz &&
+    rm -f data.tar.gz &&
+    tar zxfv control.tar.gz &&
+    rm -f control.tar.gz &&
+    cd ../ &&
+    rm -f $DEB
+done

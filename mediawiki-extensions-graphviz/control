@@ -1,0 +1,15 @@
+Package: mediawiki-extensions-graphviz
+Source: mediawiki-extensions
+Version: 2.3squeeze1
+Architecture: all
+Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
+Installed-Size: 16
+Depends: mediawiki-extensions-base, graphviz
+Section: web
+Priority: optional
+Description: Extensions for MediaWiki -- GraphViz extension
+ This package provides the mediawiki extension for
+ creating drawings out of graphviz source files.
+ .
+ This extension is set for the Debian mediawiki
+ package, but it may also be used separately.

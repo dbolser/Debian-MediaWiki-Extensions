@@ -1,0 +1,15 @@
+Package: mediawiki-extensions-collection
+Source: mediawiki-extensions
+Version: 2.3squeeze1
+Architecture: all
+Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
+Installed-Size: 1192
+Depends: mediawiki-extensions-base, libjs-jquery, libjs-jquery-ui, php5-curl
+Section: web
+Priority: optional
+Description: Extensions for MediaWiki -- Collection extension
+ This package provides the mediawiki extensions for
+ creating books using collections of pages.
+ .
+ This extension is set for the Debian mediawiki
+ package, but it may also be used separately.

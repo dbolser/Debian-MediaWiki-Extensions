@@ -1,0 +1,12 @@
+94ac7c35e92c63863eeeccedf8ed3547  usr/share/doc/mediawiki-extensions-confirmedit/changelog.gz
+f63df8d140b597846631c93d09528e15  usr/share/doc/mediawiki-extensions-confirmedit/copyright
+bfa351ad20fb23d98091185248c1b005  usr/share/doc/mediawiki-extensions/confirmedit/MathCaptcha
+dd4fe764651029e7dbace4ea5d956885  usr/share/mediawiki-extensions/confirmedit/ConfirmEdit.i18n.php
+6f4385f6e71276efa304911eb834ab08  usr/share/mediawiki-extensions/confirmedit/ConfirmEdit.php
+697bf8d9c25d7bc16dcfbce7bc049134  usr/share/mediawiki-extensions/confirmedit/ConfirmEdit_body.php
+776cdebfb2b547776aaa1bf7c59e7f08  usr/share/mediawiki-extensions/confirmedit/FancyCaptcha.class.php
+ee996cb234480ab9a87b5e8c6592cacf  usr/share/mediawiki-extensions/confirmedit/FancyCaptcha.i18n.php
+1d8714e8c69f57b44c336a81a1b94021  usr/share/mediawiki-extensions/confirmedit/FancyCaptcha.php
+c9769268b7dc6f0d59e1833df223caee  usr/share/mediawiki-extensions/confirmedit/MathCaptcha.class.php
+0eb6724a43fd2b8445379aafc1c6112b  usr/share/mediawiki-extensions/confirmedit/MathCaptcha.php
+ef3ba0dd4c60df4577af3b9f744d3789  usr/share/mediawiki-extensions/confirmedit/captcha.py

@@ -1,0 +1,16 @@
+Package: mediawiki-extensions-geshi
+Source: mediawiki-extensions
+Version: 2.3squeeze1
+Architecture: all
+Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
+Installed-Size: 84
+Depends: mediawiki-extensions-base, php-geshi (>= 1.0.7.19-1)
+Replaces: mediawiki-extensions (<< 2.0)
+Section: web
+Priority: optional
+Description: Extensions for MediaWiki -- SyntaxHighlight_GeSHi extension
+ This package provides the GeSHi syntax highlighting extension
+ for mediawiki.
+ .
+ This extension is set for the Debian mediawiki
+ package, but it may also be used separately.

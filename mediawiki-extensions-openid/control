@@ -1,0 +1,16 @@
+Package: mediawiki-extensions-openid
+Source: mediawiki-extensions
+Version: 2.3squeeze1
+Architecture: all
+Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
+Installed-Size: 408
+Depends: mediawiki-extensions-base, php-openid
+Replaces: mediawiki-extensions (<< 2.0)
+Section: web
+Priority: optional
+Description: Extensions for MediaWiki -- OpenID extension
+ This package provides the mediawiki extensions for
+ user authentication using OpenID.
+ .
+ This extension is set for the Debian mediawiki
+ package, but it may also be used separately.

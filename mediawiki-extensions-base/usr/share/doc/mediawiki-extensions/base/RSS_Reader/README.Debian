@@ -1,0 +1,10 @@
+User-visible changes to the RSS_Reader extension:
+* set $egCache to false by default, since we have no www-data writable
+  cache directory, and I don't think we want it
+* add $egCacheDir which can be overridden by people who like to cache
+
+Upstream provided installation instruction for this version can be found at:
+http://www.mediawiki.org/w/index.php?title=Extension:RSS_Reader&oldid=309033
+
+
+$Id: fix_rssreader.patch 197 2010-06-30 14:35:17Z tg $

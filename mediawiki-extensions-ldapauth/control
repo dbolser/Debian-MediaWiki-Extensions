@@ -1,0 +1,16 @@
+Package: mediawiki-extensions-ldapauth
+Source: mediawiki-extensions
+Version: 2.3squeeze1
+Architecture: all
+Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
+Installed-Size: 80
+Depends: mediawiki-extensions-base, php5-ldap
+Replaces: mediawiki-extensions (<< 2.0)
+Section: web
+Priority: optional
+Description: Extensions for MediaWiki -- LdapAuthentication extension
+ This package provides the mediawiki extensions for
+ user authentication using LDAP.
+ .
+ This extension is set for the Debian mediawiki
+ package, but it may also be used separately.

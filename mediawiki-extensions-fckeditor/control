@@ -1,0 +1,15 @@
+Package: mediawiki-extensions-fckeditor
+Source: mediawiki-extensions
+Version: 2.3squeeze1
+Architecture: all
+Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
+Installed-Size: 580
+Depends: mediawiki-extensions-base, fckeditor
+Section: web
+Priority: optional
+Description: Extensions for MediaWiki -- FCKeditor extension
+ This package provides the mediawiki extensions for
+ FCKeditor wysiwyg editor.
+ .
+ This extension is set for the Debian mediawiki
+ package, but it may also be used separately.

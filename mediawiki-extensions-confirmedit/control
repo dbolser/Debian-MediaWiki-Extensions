@@ -1,0 +1,22 @@
+Package: mediawiki-extensions-confirmedit
+Source: mediawiki-extensions
+Version: 2.3squeeze1
+Architecture: all
+Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
+Installed-Size: 488
+Depends: mediawiki-extensions-base, python, python-imaging
+Recommends: mediawiki-math
+Replaces: mediawiki-extensions (<< 2.0)
+Section: web
+Priority: optional
+Description: Extensions for MediaWiki -- ConfirmEdit extension
+ This package provides the mediawiki extensions for
+ various captcha used to confirm user's editions.
+ .
+ Currently, it contains:
+  * ConfirmEdit          -- very simple text Captcha
+  * FancyCaptcha         -- more complex image captchas (needs ConfirmEdit)
+  * MathCaptcha          -- captchas using simple sums and the math renderer
+ .
+ This extension is set for the Debian mediawiki
+ package, but it may also be used separately.
